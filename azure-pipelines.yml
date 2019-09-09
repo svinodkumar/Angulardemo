@@ -20,6 +20,3 @@ steps:
     npm install --save @angular/material @angular/cdk
     ng build --prod
   displayName: 'npm install and build'
-
-- task : PublishBuildArtifacts@1
-- task: PublishTestResults@2
